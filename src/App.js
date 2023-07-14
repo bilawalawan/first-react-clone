@@ -1,12 +1,14 @@
-// import logo from './logo.svg';
-// import './App.css';
-import './css/styles.css';
-import Homepage from './Homepage/homepage';
+import Homepage from './components/homepage/home';
+import style from './css/styles.css'
+import style1 from './css/swiper-bundle.min.css'
+
+
 
 function App() {
   return (
     <div >
-      <Homepage/>
+     
+     <Homepage/>
     </div>
   );
 }
